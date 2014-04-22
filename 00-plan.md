@@ -5,6 +5,8 @@
   2. Install Node.js `brew install node`
   3. Install git `brew install git`
   4. Create an account at [Gitub](http://www.github.com)
+    1. Your username should be your first initial and last name. Username for `Dan McAulay` is `dmcaulay`
+    2. Your password should be `springstone`
 
 2. Basics in the Node.js console
   1. Start Node.js `node`
