@@ -1,4 +1,4 @@
-# Node.js
+### Learn to code with Node.js
 
 1. Setup
   1. Install homebrew `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
