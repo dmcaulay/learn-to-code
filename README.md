@@ -53,7 +53,7 @@
     3. Push the code to Github `git push -u origin master`
 
 4. Executing a Node.js file
-  1. Open 01-hello.js in atom `atom 01-hello.js`
+  1. Open `01-hello.js` in atom `atom 01-hello.js`
   2. Add `console.log('Hello world!')` to `01-hello.js`
   3. Run `node 01-hello.js` from the terminal
 
