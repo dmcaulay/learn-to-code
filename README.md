@@ -4,7 +4,7 @@
   1. Install homebrew `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
   2. Install Node.js `brew install node`
   3. Install git `brew install git`
-  4. Create an account at [Gitub](http://www.github.com)
+  4. Create an account on [Github](http://www.github.com)
     1. Your username should be your first initial and last name. Username for `Dan McAulay` is `dmcaulay`
     2. Your password should be `springstone`
 
