@@ -57,3 +57,12 @@
   2. Add `console.log('Hello world!')` to `01-hello.js`
   3. Run `node 01-hello.js` from the terminal
 
+5. Conditionals
+  1. The `if` statement
+```js
+if ("Dan Mcaulay".length > 10) {
+  console.log("Dan McAulay is a long name!")
+} else {
+  console.log("Dan McAulay is a short name!")
+}
+```
