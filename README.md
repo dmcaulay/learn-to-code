@@ -31,6 +31,13 @@
     10. Compare string length `"Hello".length < 10`
   5. Output with `console.log`
     1. Write to the console `console.log("Hello world!")`
+  6. Arrays
+    1. Arrays are lists of items `['first item', 'second item']`
+    2. You can access those items by index
+      1. Indexes start at zero 
+      2. `['first item', 'second item'][0]` with return `'first item'`
+      3. `['first item', 'second item'][1]` with return `'second item'`
+      3. `[1, 2, 3, 4, 5][1]` with return `2`
 
 3. Setup a Git repository for your "Learn to Code" work
   1. Create a directory for your "Learn to Code" work
@@ -52,12 +59,22 @@
     2. Add the remote repository `git remote add origin git@github.com:username/learn-to-code.git`
     3. Push the code to Github `git push -u origin master`
 
-4. Executing a Node.js file
-  1. Open `01-hello.js` in atom `atom 01-hello.js`
-  2. Add `console.log('Hello world!')` to `01-hello.js`
-  3. Run `node 01-hello.js` from the terminal
+4. Execute a Node.js file
+  1. Open `application.js` in atom `atom application.js`
+  2. Add `console.log('Welcome to your first application');` to `01-hello.js`
+  3. Run `node application.js` from the terminal
 
-5. Conditionals
+8. Command line arguments
+  1. Add the ability to pass your name to the application.
+    1. Use `process.argv` to retrieve the arguments
+    2. Add `console.log('Welcome to your first application,', process.argv);` to `application.js`
+    3. Run `node application.js arg1 arg2`
+    4. What does that tell you about `process.argv`?
+    5. Can you change the script so it prints out only `Welecome to your first application, arg1 arg2`?
+    6. Now try passing your first name for arg1 and last name for arg2.
+       1. `node application.js Dan McAulay`
+
+6. Conditionals
   1. The `if` statement
 
           if ("Dan Mcaulay".length > 10) {
@@ -83,4 +100,9 @@
           } else {
             console.log("Dan McAulay is a long name!")
           }
+
+7. Variables
+  1. Variables allow you to store values in your code.
+  2. You define variables with a case-sensitive name `var myName = 'Dan';`.
+  3. You can get the length of the string using the variable `myName.length`.
 
