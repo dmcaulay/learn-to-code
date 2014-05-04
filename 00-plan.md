@@ -66,3 +66,21 @@ if ("Dan Mcaulay".length > 10) {
   console.log("Dan McAulay is a short name!")
 }
 ```
+  2. The `if` statment is made up of the `if` keyword, a condition and curly braces `{}`.
+     If the condition is true then the code inside the curly braces is executed.
+```js
+if (condition) {
+  // code here
+}
+```
+  3. An optional `else` clause will be executed if the condition is false.
+  4. You can also add an `else if` clause if you want to test multiple conditions.
+```js
+if ("Dan Mcaulay".length < 10) {
+  console.log("Dan McAulay is a short name!")
+} else if ("Dan McAulay".length < 20)  {
+  console.log("Dan McAulay is an average sized name!")
+} else {
+  console.log("Dan McAulay is a long name!")
+}
+```
