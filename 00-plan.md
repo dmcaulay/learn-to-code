@@ -127,5 +127,5 @@
     1. Tell the user if they have a long name or a short name.
   6. Upload your work to Github.
     1. Add the changes to git `git add application.js`
-    2. Commit your changes `git commit -m 'store your name in a variable'`
+    2. Commit your changes `git commit -m 'check the name length'`
     3. Upload your changes `git push`
