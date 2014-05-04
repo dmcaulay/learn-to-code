@@ -60,11 +60,11 @@
 5. Conditionals
   1. The `if` statement
 
-        if ("Dan Mcaulay".length > 10) {
-          console.log("Dan McAulay is a long name!")
-        } else {
-          console.log("Dan McAulay is a short name!")
-        }
+          if ("Dan Mcaulay".length > 10) {
+            console.log("Dan McAulay is a long name!")
+          } else {
+            console.log("Dan McAulay is a short name!")
+          }
 
   2. The `if` statment is made up of the `if` keyword, a condition and curly braces `{}`.
      If the condition is true then the code inside the curly braces is executed.
