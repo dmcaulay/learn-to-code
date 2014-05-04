@@ -37,7 +37,7 @@
       1. Indexes start at zero 
       2. `['first item', 'second item'][0]` with return `'first item'`
       3. `['first item', 'second item'][1]` with return `'second item'`
-      3. `[1, 2, 3, 4, 5][1]` with return `2`
+      4. `[1, 2, 3, 4, 5][1]` with return `2`
 
 3. Setup a Git repository for your "Learn to Code" work
   1. Create a directory for your "Learn to Code" work
@@ -63,8 +63,12 @@
   1. Open `application.js` in atom `atom application.js`
   2. Add `console.log('Welcome to your first application');` to `01-hello.js`
   3. Run `node application.js` from the terminal
+  4. Upload your work to Github.
+    1. Add the file to git `git add application.js`
+    2. Commit your changes `git commit -m 'my first application'`
+    3. Upload your changes `git push`
 
-8. Command line arguments
+5. Command line arguments
   1. Add the ability to pass your name to the application.
     1. Use `process.argv` to retrieve the arguments
     2. Add `console.log('Welcome to your first application,', process.argv);` to `application.js`
@@ -73,8 +77,26 @@
     5. Can you change the script so it prints out only `Welecome to your first application, arg1 arg2`?
     6. Now try passing your first name for arg1 and last name for arg2.
        1. `node application.js Dan McAulay`
+  2. Upload your work to Github.
+    1. Add the changes to git `git add application.js`
+    2. Commit your changes `git commit -m 'pass your name to the application'`
+    3. Upload your changes `git push`
 
-6. Conditionals
+6. Variables
+  1. Variables allow you to store values in your code.
+  2. You define variables with a case-sensitive name `var name = 'Dan';`.
+  3. You can get the length of the string using the variable `name.length`.
+  4. Store your name in a variable so you can use it later.
+    1. Add code to store your name in a variable in `application.js`
+      1. Hint: You can add two string together. `var name = 'Dan' + 'McAulay';`
+    2. Use the variable to print the name.
+      1. `console.log('Welcome to your first application,', name);` 
+  5. Upload your work to Github.
+    1. Add the changes to git `git add application.js`
+    2. Commit your changes `git commit -m 'store your name in a variable'`
+    3. Upload your changes `git push`
+
+7. Conditionals
   1. The `if` statement
 
           if ("Dan Mcaulay".length > 10) {
@@ -101,8 +123,9 @@
             console.log("Dan McAulay is a long name!")
           }
 
-7. Variables
-  1. Variables allow you to store values in your code.
-  2. You define variables with a case-sensitive name `var myName = 'Dan';`.
-  3. You can get the length of the string using the variable `myName.length`.
-
+  5. Add a conditional to your application.
+    1. Tell the user if they have a long name or a short name.
+  6. Upload your work to Github.
+    1. Add the changes to git `git add application.js`
+    2. Commit your changes `git commit -m 'store your name in a variable'`
+    3. Upload your changes `git push`
